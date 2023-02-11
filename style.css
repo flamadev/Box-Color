@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #111;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+  color: deeppink;
+}
+
+footer {
+  padding: 1rem 0;
+  color: #d46dbc;
+}
+.cube {
+  background-color: #1d1d1d;
+  box-shadow: 0 0 2px #000;
+  width: 16px;
+  height: 16px;
+  margin: 2px;
+  transition: 2s ease;
+  border: none;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 400px;
+}
+
+.cube:hover {
+  transition-duration: 0s;
+}
+
+.cube.blue:hover {
+  background-color: rgb(37, 100, 201);
+  box-shadow: rgb(37, 100, 201) 0px 0px 3px, rgb(37, 100, 201) 0px 0px 10px;
+}
+.cube.green:hover {
+  background-color: rgb(87, 239, 76);
+  box-shadow: rgb(87, 239, 76) 0px 0px 3px, rgb(87, 239, 76) 0px 0px 10px;
+}
+.cube.yellow:hover {
+  background-color: rgb(255, 255, 0);
+  box-shadow: rgb(255 255 0) 0px 0px 3px, rgb(255 255 0) 0px 0px 10px;
+}
+.cube.pink:hover {
+  background-color: rgb(251, 0, 255);
+  box-shadow: rgb(251, 0, 255) 0px 0px 3px, rgb(251, 0, 255) 0px 0px 10px;
+}
+.cube.orange:hover {
+  background-color: rgb(249, 104, 0);
+  box-shadow: rgb(249, 104, 0) 0px 0px 3px, rgb(249, 104, 0) 0px 0px 10px;
+}
+.cube.red:hover {
+  background-color: rgb(249, 0, 0);
+  box-shadow: rgb(249, 0, 0) 0px 0px 3px, rgb(249, 0, 0) 0px 0px 10px;
+}
